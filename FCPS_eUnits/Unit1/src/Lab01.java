@@ -70,7 +70,7 @@ public class Lab01 {
       pete.turnLeft();
       pete.move();
       pete.move();
-      pete.turnLeft();s
+      pete.turnLeft();
       pete.move();
       pete.move();
       pete.putBeeper();
