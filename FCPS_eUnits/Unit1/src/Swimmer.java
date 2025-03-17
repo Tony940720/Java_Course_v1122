@@ -9,5 +9,21 @@
       }
       public void run() //not swim
       {
+         for(int j = 0; j < 10; j++)
+         {
+
+            for(int i = 0; i < 8; i++)
+            {
+               move();
+            }
+            turnLeft();
+            turnLeft();
+            for(int i = 0; i < 8; i++)
+            {
+               move();
+            }
+            turnLeft();
+            turnLeft();
+         }
       }
    }
