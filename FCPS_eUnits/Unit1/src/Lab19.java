@@ -9,7 +9,7 @@
          String filename = JOptionPane.showInputDialog("What robot world?");
          Display.openWorld("../maps/"+filename+".map");
          Display.setSize(10, 10);
-         Display.setSpeed(10);
+         Display.setSpeed(5);
          
          
          Dorothy dorothy = new Dorothy();

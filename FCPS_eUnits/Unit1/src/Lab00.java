@@ -10,13 +10,13 @@ public class Lab00 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Display.openWorld("../maps/test.map");
+		Display.openWorld("../maps/maze9.map");
       Display.setSize(10,10);
       Display.setSpeed(5);
       
-		Robot karel = new Robot();
+		Robot karel = new Robot(1,1, Display.EAST, );
       
-      karel.move();
+     /*karel.move();
       karel.pickBeeper();
       karel.move();
       karel.turnLeft();
@@ -25,6 +25,11 @@ public class Lab00 {
       karel.move();
       karel.turnLeft();
       karel.turnLeft();
+      */
+      karel.putBeeper();
+      karel.move();
+      karel.putBeeper();
+      karel.move();
 	}
 
 }
