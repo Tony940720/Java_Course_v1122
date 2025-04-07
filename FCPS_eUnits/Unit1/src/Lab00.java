@@ -14,7 +14,7 @@ public class Lab00 {
       Display.setSize(10,10);
       Display.setSpeed(5);
       
-		Robot karel = new Robot(1,1, Display.EAST, );
+		Robot karel = new athlete(1,1, Display.EAST, );
       
      /*karel.move();
       karel.pickBeeper();
