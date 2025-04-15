@@ -1,4 +1,4 @@
-	//Name______________________________ Date_____________
+	package Lab06;
    import edu.fcps.Turtle;
     public class SquareTurtle extends Turtle
    {
@@ -33,12 +33,11 @@
       }
        public void drawShape()
       {
-      
-         /************************/
-      	/*                      */
-      	/* Your code goes here. */
-      	/*                      */
-      	/************************/
+         for(int i = 0; i < 4; i++)
+         {
+            forward(mySize);
+            turnLeft(90);
+         }    
       
       }
    }

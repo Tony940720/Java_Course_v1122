@@ -1,12 +1,4 @@
-/**
- *  Bugs are simple creatures that only know how to walk towards other bugs.
- *  Bugs maintain information about their (x, y) position.
- *  Bugs can tell if they are standing next to other bugs.
- *
- *  @author Shane Torbert
- *  @version 25 Nov 2002
- *  emphasis changed on 18 Nov 2009 mlbillington@fcps.edu
- **/
+   package Lab05;
    public class Bug
    {
       private int myX;
