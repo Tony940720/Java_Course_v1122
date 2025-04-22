@@ -1,12 +1,12 @@
-package Lab08;
+package Lab09;
 import edu.fcps.Turtle;
 import java.awt.Color;
 import javax.swing.*;
-public class Driver08
+public class Driver09
 {
    public static void main(String[] args)
    {
-      JFrame frame = new JFrame("Lab08");
+      JFrame frame = new JFrame("Lab09");
       frame.setSize(400,400);
       frame.setLocation(100,50);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -14,10 +14,13 @@ public class Driver08
       frame.setVisible(true);
       Turtle.clear(Color.white);
          
-   	FlowerTurtle lisa = new FlowerTurtle(300.0, 100.0, Color.RED);
-      lisa.setSize(50.0);        	//calls lisa's setSize()
-      lisa.setColor(Color.BLUE); 	//calls lisa's setColor()
-	   lisa.drawShape();
+   	TwisistyTurtle rotatetriangle = new TwisistyTurtle(1);
+   	TwisistyTurtle rotate = new TwisistyTurtle(100.0, 250.0, 90.0, 2);
+      TwisistyTurtle rotatesquare = new TwisistyTurtle(500, 350.0, 90, 3);
+
+	   rotatetriangle.drawShape();
+	   rotate.drawShape();
+	   rotatesquare.drawShape();
 
    
    }
