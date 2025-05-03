@@ -1,4 +1,4 @@
-package Lab10;
+package Lab12;
 import java.awt.*;
 
 public class Polkadot

@@ -1,4 +1,4 @@
-package Lab11;
+package Lab12;
 import java.awt.*;
  public class Ball extends Polkadot
 {
