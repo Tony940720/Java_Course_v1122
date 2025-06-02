@@ -42,11 +42,11 @@
             myBuffer.setColor(Color.red);
             for(int x = 17; x < WIDTH; x += 30) //vertical lines
             {
-               myBuffer.drawLine(/*     */);
+              // myBuffer.drawLine(/*     */);
             }
             for(int y = 9; y < HEIGHT; y += 28) //horizontal lines
             {
-               myBuffer.drawLine(/*     */);
+               //myBuffer.drawLine(/*     */);
             }
             myBuffer.fillRect(107, 121, 180, 56);
             myBuffer.setColor(Color.black);

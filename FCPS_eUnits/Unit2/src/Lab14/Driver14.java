@@ -1,0 +1,14 @@
+package Lab14;
+import javax.swing.*;
+public class Driver14
+{
+   public static void main(String[] args)
+   {
+      JFrame frame = new JFrame("Lab14");
+      frame.setSize(400,400);
+      frame.setLocation(100,50);
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      frame.setContentPane(new BumperPanel());
+      frame.setVisible(true);
+   }
+}
